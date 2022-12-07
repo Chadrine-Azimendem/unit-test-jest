@@ -1,9 +1,20 @@
-let myArray = ["Dan", "Stuart", "Ben"];
-
 const add = (a, b) => {
-  return (result = a + b);
+  let result = a + b;
+  return result;
 };
 
-console.log(add(1, 3));
+const subtract = (num1, num2) => {
+  let result = num1 - num2;
+  return result;
+};
 
-module.exports = { add, myArray };
+const multiply = (num1, num2) => {
+  let result = num1 * num2;
+  return result;
+};
+
+// add(2, 3);
+// add(0, 0);
+let myArray = ["Dan", "Stuart", "Ben"];
+
+module.exports = { add, subtract, multiply, myArray };
